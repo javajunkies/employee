@@ -29,6 +29,12 @@ public class Employee
    {
       return hireDay;
    }
+   
+   public String toString()
+   {
+     String info = name+salary.toString()+hireDay.toString();
+     return info;
+   }
 
    public void raiseSalary(double byPercent)
    {
