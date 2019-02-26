@@ -38,9 +38,9 @@ public class Employee
    }
    
 
-   public void raiseSalary(double byDollarValue)
+   public void raiseSalary(double byDecimalValue)
    {
-      double raise = salary * byPercent / 100;
+      double raise = salary * byDecimalValue / 100;
       salary += raise;
    }
 
